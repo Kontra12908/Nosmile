@@ -1,0 +1,37 @@
+[127.921104431] 2018-10-21 18:18:47,250 - INFO - launcher: Starting sanity checks
+[202.874183655] 2018-10-21 18:18:47,325 - INFO - launcher: Checking for Python 3.5+
+[209.871768951] 2018-10-21 18:18:47,332 - INFO - launcher: Checking console encoding
+[212.868690491] 2018-10-21 18:18:47,335 - INFO - launcher: Setting console encoding to UTF-8
+[226.861238480] 2018-10-21 18:18:47,349 - INFO - launcher: Ensuring we're in the right environment
+[263.839006424] 2018-10-21 18:18:47,386 - INFO - launcher: Adding local bins/ folder to path
+[2820.819139481] 2018-10-21 18:18:49,943 - INFO - launcher: Required checks passed.
+[2849.800348282] 2018-10-21 18:18:49,972 - INFO - launcher: Optional checks passed.
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[8.8067021369934082] 2018-10-21 18:18:55,929 - WARNING - musicbot.config | In config.py::MainThread(9920), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[8.8836543560028076] 2018-10-21 18:18:56,006 - INFO - musicbot.config | In config.py::MainThread(9920), line 124 in run_checks: Using i18n: config/i18n/en.json
+[8.8856532573699951] 2018-10-21 18:18:56,008 - WARNING - musicbot.config | In config.py::MainThread(9920), line 207 in create_empty_file_ifnoexist: Creating config/blacklist.txt
+[8.8866524696350098] 2018-10-21 18:18:56,009 - WARNING - musicbot.config | In config.py::MainThread(9920), line 207 in create_empty_file_ifnoexist: Creating config/whitelist.txt
+[9.1255888938903809] 2018-10-21 18:18:56,248 - DEBUG - musicbot.config | In config.py::MainThread(9920), line 294 in find_autoplaylist: Copying _autoplaylist.txt to autoplaylist.txt
+[9.1425647735595703] 2018-10-21 18:18:56,265 - INFO - musicbot.permissions | In permissions.py::MainThread(9920), line 40 in __init__: Permissions file not found, copying example_permissions.ini
+[9.1885483264923096] 2018-10-21 18:18:56,311 - DEBUG - musicbot.json | In json.py::MainThread(9920), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[10.2864022254943848] 2018-10-21 18:18:57,409 - DEBUG - musicbot.bot | In bot.py::MainThread(9920), line 223 in _setup_logging: Set logging level to INFO
+[10.2874023914337158] 2018-10-21 18:18:57,410 - INFO - musicbot.bot | In bot.py::MainThread(9920), line 83 in __init__: Starting MusicBot 1.9.8_1
+[10.7471206188201904] 2018-10-21 18:18:57,870 - INFO - musicbot.bot | In bot.py::MainThread(9920), line 89 in __init__: Loaded autoplaylist with 2531 entries
+[13.6743316650390625] 2018-10-21 18:19:00,797 - DEBUG - musicbot.bot | In bot.py::MainThread(9920), line 913 in on_ready: Connection established, ready to go.
+[13.6753308773040771] 2018-10-21 18:19:00,798 - DEBUG - musicbot.bot | In bot.py::MainThread(9920), line 334 in _cache_app_info: Caching app info
+[13.8472247123718262] 2018-10-21 18:19:00,970 - DEBUG - musicbot.bot | In bot.py::MainThread(9920), line 735 in _scheck_ensure_env: Ensuring data folders exist
+[13.8512217998504639] 2018-10-21 18:19:00,974 - DEBUG - musicbot.bot | In bot.py::MainThread(9920), line 751 in _scheck_server_permissions: Checking server permissions
+[13.8512217998504639] 2018-10-21 18:19:00,974 - DEBUG - musicbot.bot | In bot.py::MainThread(9920), line 755 in _scheck_autoplaylist: Auditing autoplaylist
+[13.8512217998504639] 2018-10-21 18:19:00,974 - DEBUG - musicbot.bot | In bot.py::MainThread(9920), line 759 in _scheck_configs: Validating config
+[13.8522303104400635] 2018-10-21 18:19:00,975 - DEBUG - musicbot.config | In config.py::MainThread(9920), line 213 in async_validate: Validating options...
+[13.8522303104400635] 2018-10-21 18:19:00,975 - DEBUG - musicbot.bot | In bot.py::MainThread(9920), line 762 in _scheck_configs: Validating permissions config
+[13.8522303104400635] 2018-10-21 18:19:00,975 - DEBUG - musicbot.permissions | In permissions.py::MainThread(9920), line 65 in async_validate: Validating permissions...
+[13.8522303104400635] 2018-10-21 18:19:00,975 - INFO - musicbot.bot | In bot.py::MainThread(9920), line 930 in on_ready: Connected: 503291641814319105/No Smile#3805
+[13.8542206287384033] 2018-10-21 18:19:00,977 - INFO - musicbot.bot | In bot.py::MainThread(9920), line 938 in on_ready: Owner:     354540494124089364/Kontra#0024
+
+[13.8552198410034180] 2018-10-21 18:19:00,978 - INFO - musicbot.bot | In bot.py::MainThread(9920), line 941 in on_ready: Guild List:
+[13.8692109584808350] 2018-10-21 18:19:00,992 - INFO - musicbot.bot | In bot.py::MainThread(9920), line 944 in on_ready:  - Lolololo
+[13.8702130317687988] 2018-10-21 18:19:00,993 - INFO - musicbot.bot | In bot.py::MainThread(9920), line 990 in on_ready: Not bound to any text channels
+[13.8722090721130371] 2018-10-21 18:19:00,995 - INFO - musicbot.bot | In bot.py::MainThread(9920), line 1016 in on_ready: Not autojoining any voice channels
