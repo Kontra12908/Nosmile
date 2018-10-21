@@ -1,1 +1,1 @@
-eyzalts! nood.js
+worker: node bot.js
